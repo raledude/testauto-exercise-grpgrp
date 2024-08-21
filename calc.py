@@ -7,8 +7,15 @@ def addition():
 def subtraction():
     pass
 
+
 def division():
-    pass
+    x = int(input("Skriv in den första siffran: "))
+    y = int(input("Skriv in den andra siffran: "))
+    if y != 0:
+        result = x / y
+        print("Resultat:", result)
+    else:
+        print("Fel: Division med noll är inte tillåtet.")
 
 def square_root():
     pass
@@ -29,7 +36,6 @@ while True:
     elif choice == "3":
         pass
     elif choice == "4":
-        pass
+        division()
     else:
         print("Invalid choice")
-
