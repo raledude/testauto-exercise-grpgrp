@@ -1,9 +1,9 @@
 def multiplication():
     y = int(input("Type any number: "))
     x = int(input("Type in the number you want to multiply it with: "))
-    result = y * x
+    result = y + x
     print(f"This is your number: {result} \n")
-    
+
 def addition():
     pass
 
@@ -22,6 +22,7 @@ while True:
     print("[2] -")
     print("[3] +")
     print("[4] /")
+
 
 
     choice = input("What do you want to do?")
